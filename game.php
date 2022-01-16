@@ -76,11 +76,11 @@ if ( $human == -1 ) {
     for($c=0;$c<3;$c++) {
         for($h=0;$h<3;$h++) {
             $r = check($c, $h);
-            print "Human=$names[$h] Computer=$names[$c] Result=$r\n";
+            print "Human=$names[$h]\nComputer=$names[$c]\nResult=$r\n";
         }
     }
 } else {
-    print "Your Play=$names[$human] Computer Play=$names[$computer] Result=$result\n";
+    print "Your Play=$names[$human]\nComputer Play=$names[$computer]\nResult=$result\n";
 }
 ?>
 </pre>

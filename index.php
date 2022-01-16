@@ -14,12 +14,11 @@ partially done and serves only as a starting point for the assignment.
 <a href="login.php">Please Log In</a>
 </p>
 <p>
-Attempt to go to 
+Attempt to go to
 <a href="game.php">game.php</a> without logging in - it should fail with an error message.
 <p>
 <a href="http://www.wa4e.com/code/rps.zip"
- target="_blank">Source Code for this Application</a>
+ target="_blank">Inspiration for this code</a>
 </p>
 </div>
 </body>
-
