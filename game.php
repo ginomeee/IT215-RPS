@@ -14,7 +14,7 @@ if ( isset($_POST['logout']) ) {
 // Test
 // Set up the values for the game...
 // 0 is Rock, 1 is Paper, and 2 is Scissors
-$names = array('Rock  ', 'Paper  ', 'Scissors');
+$names = array('Rock', 'Paper', 'Scissors');
 $human = isset($_POST["human"]) ? $_POST['human']+0 : -1;
 $computer = rand(0,2);
 
@@ -26,14 +26,14 @@ function check($computer, $human) {
     // For now this is a rock-savant checking function
     // TODO: Fix this
     if ( $human == $computer ) {
-        return "Tie\n";
+        return "Tie";
     } else {
         // For Rock
         if($human == 0 && $computer == 2) {
-            return "You Win\n";
+            return "You Win";
         } else if ($human == 1 && $computer == 0) {
-            return "You Win\n";
-        } else return "Computer Wins!\n";
+            return "You Win";
+        } else return "You Lose";
     }
     return false;
 }
@@ -79,11 +79,11 @@ if ( $human == -1 ) {
     for($c=0;$c<3;$c++) {
         for($h=0;$h<3;$h++) {
             $r = check($c, $h);
-            print "Human=$names[$h] \t Computer=$names[$c] \t <strong>Result=$r</strong>\n";
+            print "Human=$names[$h] Computer=$names[$c] Result=$r\n";
         }
     }
 } else {
-    print "Your Play=$names[$human] \t Computer Play=$names[$computer] \t <strong>Result=$result</strong>\n";
+    print "Your Play=$names[$human] Computer Play=$names[$computer] Result=$result";
 }
 ?>
 </pre>
