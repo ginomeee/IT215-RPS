@@ -1,13 +1,10 @@
 Broken Rock Paper Scissors
---------------------------
+--
+By Gino Araullo
 
-Here is a URL to the broken version of this application:
+For my IT215 Masters Class under Ms. Samonte
 
-http://www.wa4e.com/code/rps/
-
-Here is a URL to a working version of this application:
-
-http://www.wa4e.com/solutions/rps/
-
-
-
+Based from:
+- https://www.wa4e.com/assn/rps/
+- http://www.wa4e.com/code/rps/
+- http://www.wa4e.com/solutions/rps/
