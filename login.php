@@ -6,7 +6,7 @@ if ( isset($_POST['cancel'] ) ) {
     return;
 }
 
-$salt = 'XyZzy12*_'; 
+$salt = 'XyZzy12*_';
 $stored_hash = 'a8609e8d62c043243c4e201cbb342862';  // Pw is meow123
 
 $failure = false;  // If we have no POST data
@@ -33,10 +33,11 @@ if ( isset($_POST['who']) && isset($_POST['pass']) ) {
 <html>
 <head>
 <?php require_once "bootstrap.php"; ?>
-<title>Chuck Severance's Login Page</title>
+<title>7f08d884</title>
 </head>
 <body>
 <div class="container">
+<h1>Gino's RPS Program</h1>
 <h1>Please Log In</h1>
 <?php
 // Note triple not equals and think how badly double
